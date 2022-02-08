@@ -1,0 +1,1428 @@
+/*Ziyan Jiang -----M/M/2
+ * tpye A: arrival events
+ * tpye D: departure events
+ * Server : -1 means no server (arrival event)
+ *           1 means enter Server1
+ *           2 means enter Server2
+ * Server State: Busy=1
+ *               Idel=0
+ */
+Debug: 
+Current time: 0.0
+FutureEvent size: 2
+FutureEvent : 
+[id: 2, time: 0.01428229424230843, type: A, server: -1, stream: 2]
+[id: 1, time: 0.18731366440303807, type: A, server: -1, stream: 1]
+Next Event: [id: 2, time: 0.01428229424230843, type: A, server: -1, stream: 2]
+Server state: Server1: 0, Server2: 0
+DelayQueue size: 0
+DelayEvent : 
+Empty List.
+ 
+Current time: 0.01428229424230843
+FutureEvent size: 3
+FutureEvent : 
+[id: 3, time: 0.02161406579036183, type: A, server: -1, stream: 2]
+[id: 2, time: 0.027606349765095684, type: D, server: 1, stream: 2]
+[id: 1, time: 0.18731366440303807, type: A, server: -1, stream: 1]
+Next Event: [id: 3, time: 0.02161406579036183, type: A, server: -1, stream: 2]
+Server state: Server1: 1, Server2: 0
+DelayQueue size: 0
+DelayEvent : 
+Empty List.
+ 
+Current time: 0.02161406579036183
+FutureEvent size: 4
+FutureEvent : 
+[id: 2, time: 0.027606349765095684, type: D, server: 1, stream: 2]
+[id: 4, time: 0.031393465789420504, type: A, server: -1, stream: 2]
+[id: 3, time: 0.0704661076321046, type: D, server: 2, stream: 2]
+[id: 1, time: 0.18731366440303807, type: A, server: -1, stream: 1]
+Next Event: [id: 2, time: 0.027606349765095684, type: D, server: 1, stream: 2]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 0
+DelayEvent : 
+Empty List.
+ 
+Current time: 0.027606349765095684
+FutureEvent size: 3
+FutureEvent : 
+[id: 4, time: 0.031393465789420504, type: A, server: -1, stream: 2]
+[id: 3, time: 0.0704661076321046, type: D, server: 2, stream: 2]
+[id: 1, time: 0.18731366440303807, type: A, server: -1, stream: 1]
+Next Event: [id: 4, time: 0.031393465789420504, type: A, server: -1, stream: 2]
+Server state: Server1: 0, Server2: 1
+DelayQueue size: 0
+DelayEvent : 
+Empty List.
+ 
+Current time: 0.031393465789420504
+FutureEvent size: 4
+FutureEvent : 
+[id: 5, time: 0.038664513804161284, type: A, server: -1, stream: 2]
+[id: 4, time: 0.052674151374021816, type: D, server: 1, stream: 2]
+[id: 3, time: 0.0704661076321046, type: D, server: 2, stream: 2]
+[id: 1, time: 0.18731366440303807, type: A, server: -1, stream: 1]
+Next Event: [id: 5, time: 0.038664513804161284, type: A, server: -1, stream: 2]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 0
+DelayEvent : 
+Empty List.
+ 
+Current time: 0.038664513804161284
+FutureEvent size: 4
+FutureEvent : 
+[id: 4, time: 0.052674151374021816, type: D, server: 1, stream: 2]
+[id: 3, time: 0.0704661076321046, type: D, server: 2, stream: 2]
+[id: 6, time: 0.09849246998539804, type: A, server: -1, stream: 2]
+[id: 1, time: 0.18731366440303807, type: A, server: -1, stream: 1]
+Next Event: [id: 4, time: 0.052674151374021816, type: D, server: 1, stream: 2]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 1
+DelayEvent : 
+[id: 5, time: 0.038664513804161284, type: A, server: -1, stream: 2]
+ 
+Current time: 0.052674151374021816
+FutureEvent size: 4
+FutureEvent : 
+[id: 5, time: 0.06477566025997136, type: D, server: 1, stream: 2]
+[id: 3, time: 0.0704661076321046, type: D, server: 2, stream: 2]
+[id: 6, time: 0.09849246998539804, type: A, server: -1, stream: 2]
+[id: 1, time: 0.18731366440303807, type: A, server: -1, stream: 1]
+Next Event: [id: 5, time: 0.06477566025997136, type: D, server: 1, stream: 2]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 0
+DelayEvent : 
+Empty List.
+ 
+Current time: 0.06477566025997136
+FutureEvent size: 3
+FutureEvent : 
+[id: 3, time: 0.0704661076321046, type: D, server: 2, stream: 2]
+[id: 6, time: 0.09849246998539804, type: A, server: -1, stream: 2]
+[id: 1, time: 0.18731366440303807, type: A, server: -1, stream: 1]
+Next Event: [id: 3, time: 0.0704661076321046, type: D, server: 2, stream: 2]
+Server state: Server1: 0, Server2: 1
+DelayQueue size: 0
+DelayEvent : 
+Empty List.
+ 
+Current time: 0.0704661076321046
+FutureEvent size: 2
+FutureEvent : 
+[id: 6, time: 0.09849246998539804, type: A, server: -1, stream: 2]
+[id: 1, time: 0.18731366440303807, type: A, server: -1, stream: 1]
+Next Event: [id: 6, time: 0.09849246998539804, type: A, server: -1, stream: 2]
+Server state: Server1: 0, Server2: 0
+DelayQueue size: 0
+DelayEvent : 
+Empty List.
+ 
+Current time: 0.09849246998539804
+FutureEvent size: 3
+FutureEvent : 
+[id: 6, time: 0.0988724886696277, type: D, server: 1, stream: 2]
+[id: 7, time: 0.1098941422558847, type: A, server: -1, stream: 2]
+[id: 1, time: 0.18731366440303807, type: A, server: -1, stream: 1]
+Next Event: [id: 6, time: 0.0988724886696277, type: D, server: 1, stream: 2]
+Server state: Server1: 1, Server2: 0
+DelayQueue size: 0
+DelayEvent : 
+Empty List.
+ 
+Current time: 0.0988724886696277
+FutureEvent size: 2
+FutureEvent : 
+[id: 7, time: 0.1098941422558847, type: A, server: -1, stream: 2]
+[id: 1, time: 0.18731366440303807, type: A, server: -1, stream: 1]
+Next Event: [id: 7, time: 0.1098941422558847, type: A, server: -1, stream: 2]
+Server state: Server1: 0, Server2: 0
+DelayQueue size: 0
+DelayEvent : 
+Empty List.
+ 
+Current time: 0.1098941422558847
+FutureEvent size: 3
+FutureEvent : 
+[id: 7, time: 0.11120254114271615, type: D, server: 1, stream: 2]
+[id: 8, time: 0.15133725106239207, type: A, server: -1, stream: 2]
+[id: 1, time: 0.18731366440303807, type: A, server: -1, stream: 1]
+Next Event: [id: 7, time: 0.11120254114271615, type: D, server: 1, stream: 2]
+Server state: Server1: 1, Server2: 0
+DelayQueue size: 0
+DelayEvent : 
+Empty List.
+ 
+Current time: 0.11120254114271615
+FutureEvent size: 2
+FutureEvent : 
+[id: 8, time: 0.15133725106239207, type: A, server: -1, stream: 2]
+[id: 1, time: 0.18731366440303807, type: A, server: -1, stream: 1]
+Next Event: [id: 8, time: 0.15133725106239207, type: A, server: -1, stream: 2]
+Server state: Server1: 0, Server2: 0
+DelayQueue size: 0
+DelayEvent : 
+Empty List.
+ 
+Current time: 0.15133725106239207
+FutureEvent size: 3
+FutureEvent : 
+[id: 1, time: 0.18731366440303807, type: A, server: -1, stream: 1]
+[id: 8, time: 0.21088925431461522, type: D, server: 1, stream: 2]
+[id: 9, time: 0.24724842422164994, type: A, server: -1, stream: 2]
+Next Event: [id: 1, time: 0.18731366440303807, type: A, server: -1, stream: 1]
+Server state: Server1: 1, Server2: 0
+DelayQueue size: 0
+DelayEvent : 
+Empty List.
+ 
+Current time: 0.18731366440303807
+FutureEvent size: 4
+FutureEvent : 
+[id: 8, time: 0.21088925431461522, type: D, server: 1, stream: 2]
+[id: 1, time: 0.2362224431173664, type: D, server: 2, stream: 1]
+[id: 9, time: 0.24724842422164994, type: A, server: -1, stream: 2]
+[id: 10, time: 0.38165613683276545, type: A, server: -1, stream: 1]
+Next Event: [id: 8, time: 0.21088925431461522, type: D, server: 1, stream: 2]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 0
+DelayEvent : 
+Empty List.
+ 
+Current time: 0.21088925431461522
+FutureEvent size: 3
+FutureEvent : 
+[id: 1, time: 0.2362224431173664, type: D, server: 2, stream: 1]
+[id: 9, time: 0.24724842422164994, type: A, server: -1, stream: 2]
+[id: 10, time: 0.38165613683276545, type: A, server: -1, stream: 1]
+Next Event: [id: 1, time: 0.2362224431173664, type: D, server: 2, stream: 1]
+Server state: Server1: 0, Server2: 1
+DelayQueue size: 0
+DelayEvent : 
+Empty List.
+ 
+Current time: 0.2362224431173664
+FutureEvent size: 2
+FutureEvent : 
+[id: 9, time: 0.24724842422164994, type: A, server: -1, stream: 2]
+[id: 10, time: 0.38165613683276545, type: A, server: -1, stream: 1]
+Next Event: [id: 9, time: 0.24724842422164994, type: A, server: -1, stream: 2]
+Server state: Server1: 0, Server2: 0
+DelayQueue size: 0
+DelayEvent : 
+Empty List.
+ 
+Current time: 0.24724842422164994
+FutureEvent size: 3
+FutureEvent : 
+[id: 11, time: 0.31887331396767704, type: A, server: -1, stream: 2]
+[id: 9, time: 0.34603587536888697, type: D, server: 1, stream: 2]
+[id: 10, time: 0.38165613683276545, type: A, server: -1, stream: 1]
+Next Event: [id: 11, time: 0.31887331396767704, type: A, server: -1, stream: 2]
+Server state: Server1: 1, Server2: 0
+DelayQueue size: 0
+DelayEvent : 
+Empty List.
+ 
+Current time: 0.31887331396767704
+FutureEvent size: 4
+FutureEvent : 
+[id: 12, time: 0.32758275183587066, type: A, server: -1, stream: 2]
+[id: 9, time: 0.34603587536888697, type: D, server: 1, stream: 2]
+[id: 10, time: 0.38165613683276545, type: A, server: -1, stream: 1]
+[id: 11, time: 0.8445832458438807, type: D, server: 2, stream: 2]
+Next Event: [id: 12, time: 0.32758275183587066, type: A, server: -1, stream: 2]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 0
+DelayEvent : 
+Empty List.
+ 
+Current time: 0.32758275183587066
+FutureEvent size: 4
+FutureEvent : 
+[id: 13, time: 0.3425052420449065, type: A, server: -1, stream: 2]
+[id: 9, time: 0.34603587536888697, type: D, server: 1, stream: 2]
+[id: 10, time: 0.38165613683276545, type: A, server: -1, stream: 1]
+[id: 11, time: 0.8445832458438807, type: D, server: 2, stream: 2]
+Next Event: [id: 13, time: 0.3425052420449065, type: A, server: -1, stream: 2]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 1
+DelayEvent : 
+[id: 12, time: 0.32758275183587066, type: A, server: -1, stream: 2]
+ 
+Current time: 0.3425052420449065
+FutureEvent size: 4
+FutureEvent : 
+[id: 9, time: 0.34603587536888697, type: D, server: 1, stream: 2]
+[id: 14, time: 0.36376709325353657, type: A, server: -1, stream: 2]
+[id: 10, time: 0.38165613683276545, type: A, server: -1, stream: 1]
+[id: 11, time: 0.8445832458438807, type: D, server: 2, stream: 2]
+Next Event: [id: 9, time: 0.34603587536888697, type: D, server: 1, stream: 2]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 2
+DelayEvent : 
+[id: 12, time: 0.32758275183587066, type: A, server: -1, stream: 2]
+[id: 13, time: 0.3425052420449065, type: A, server: -1, stream: 2]
+ 
+Current time: 0.34603587536888697
+FutureEvent size: 4
+FutureEvent : 
+[id: 14, time: 0.36376709325353657, type: A, server: -1, stream: 2]
+[id: 10, time: 0.38165613683276545, type: A, server: -1, stream: 1]
+[id: 12, time: 0.43773924969373856, type: D, server: 1, stream: 2]
+[id: 11, time: 0.8445832458438807, type: D, server: 2, stream: 2]
+Next Event: [id: 14, time: 0.36376709325353657, type: A, server: -1, stream: 2]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 1
+DelayEvent : 
+[id: 13, time: 0.3425052420449065, type: A, server: -1, stream: 2]
+ 
+Current time: 0.36376709325353657
+FutureEvent size: 4
+FutureEvent : 
+[id: 10, time: 0.38165613683276545, type: A, server: -1, stream: 1]
+[id: 15, time: 0.43107973104346936, type: A, server: -1, stream: 2]
+[id: 12, time: 0.43773924969373856, type: D, server: 1, stream: 2]
+[id: 11, time: 0.8445832458438807, type: D, server: 2, stream: 2]
+Next Event: [id: 10, time: 0.38165613683276545, type: A, server: -1, stream: 1]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 2
+DelayEvent : 
+[id: 13, time: 0.3425052420449065, type: A, server: -1, stream: 2]
+[id: 14, time: 0.36376709325353657, type: A, server: -1, stream: 2]
+ 
+Current time: 0.38165613683276545
+FutureEvent size: 4
+FutureEvent : 
+[id: 15, time: 0.43107973104346936, type: A, server: -1, stream: 2]
+[id: 12, time: 0.43773924969373856, type: D, server: 1, stream: 2]
+[id: 16, time: 0.7937083419035993, type: A, server: -1, stream: 1]
+[id: 11, time: 0.8445832458438807, type: D, server: 2, stream: 2]
+Next Event: [id: 15, time: 0.43107973104346936, type: A, server: -1, stream: 2]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 3
+DelayEvent : 
+[id: 13, time: 0.3425052420449065, type: A, server: -1, stream: 2]
+[id: 14, time: 0.36376709325353657, type: A, server: -1, stream: 2]
+[id: 10, time: 0.38165613683276545, type: A, server: -1, stream: 1]
+ 
+Current time: 0.43107973104346936
+FutureEvent size: 4
+FutureEvent : 
+[id: 12, time: 0.43773924969373856, type: D, server: 1, stream: 2]
+[id: 17, time: 0.48998106372036637, type: A, server: -1, stream: 2]
+[id: 16, time: 0.7937083419035993, type: A, server: -1, stream: 1]
+[id: 11, time: 0.8445832458438807, type: D, server: 2, stream: 2]
+Next Event: [id: 12, time: 0.43773924969373856, type: D, server: 1, stream: 2]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 4
+DelayEvent : 
+[id: 13, time: 0.3425052420449065, type: A, server: -1, stream: 2]
+[id: 14, time: 0.36376709325353657, type: A, server: -1, stream: 2]
+[id: 10, time: 0.38165613683276545, type: A, server: -1, stream: 1]
+[id: 15, time: 0.43107973104346936, type: A, server: -1, stream: 2]
+ 
+Current time: 0.43773924969373856
+FutureEvent size: 4
+FutureEvent : 
+[id: 17, time: 0.48998106372036637, type: A, server: -1, stream: 2]
+[id: 13, time: 0.5241559650567571, type: D, server: 1, stream: 2]
+[id: 16, time: 0.7937083419035993, type: A, server: -1, stream: 1]
+[id: 11, time: 0.8445832458438807, type: D, server: 2, stream: 2]
+Next Event: [id: 17, time: 0.48998106372036637, type: A, server: -1, stream: 2]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 3
+DelayEvent : 
+[id: 14, time: 0.36376709325353657, type: A, server: -1, stream: 2]
+[id: 10, time: 0.38165613683276545, type: A, server: -1, stream: 1]
+[id: 15, time: 0.43107973104346936, type: A, server: -1, stream: 2]
+ 
+Current time: 0.48998106372036637
+FutureEvent size: 4
+FutureEvent : 
+[id: 13, time: 0.5241559650567571, type: D, server: 1, stream: 2]
+[id: 18, time: 0.5458375951639838, type: A, server: -1, stream: 2]
+[id: 16, time: 0.7937083419035993, type: A, server: -1, stream: 1]
+[id: 11, time: 0.8445832458438807, type: D, server: 2, stream: 2]
+Next Event: [id: 13, time: 0.5241559650567571, type: D, server: 1, stream: 2]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 4
+DelayEvent : 
+[id: 14, time: 0.36376709325353657, type: A, server: -1, stream: 2]
+[id: 10, time: 0.38165613683276545, type: A, server: -1, stream: 1]
+[id: 15, time: 0.43107973104346936, type: A, server: -1, stream: 2]
+[id: 17, time: 0.48998106372036637, type: A, server: -1, stream: 2]
+ 
+Current time: 0.5241559650567571
+FutureEvent size: 4
+FutureEvent : 
+[id: 14, time: 0.5447519388404332, type: D, server: 1, stream: 2]
+[id: 18, time: 0.5458375951639838, type: A, server: -1, stream: 2]
+[id: 16, time: 0.7937083419035993, type: A, server: -1, stream: 1]
+[id: 11, time: 0.8445832458438807, type: D, server: 2, stream: 2]
+Next Event: [id: 14, time: 0.5447519388404332, type: D, server: 1, stream: 2]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 3
+DelayEvent : 
+[id: 10, time: 0.38165613683276545, type: A, server: -1, stream: 1]
+[id: 15, time: 0.43107973104346936, type: A, server: -1, stream: 2]
+[id: 17, time: 0.48998106372036637, type: A, server: -1, stream: 2]
+ 
+Current time: 0.5447519388404332
+FutureEvent size: 4
+FutureEvent : 
+[id: 18, time: 0.5458375951639838, type: A, server: -1, stream: 2]
+[id: 10, time: 0.5716271590055975, type: D, server: 1, stream: 1]
+[id: 16, time: 0.7937083419035993, type: A, server: -1, stream: 1]
+[id: 11, time: 0.8445832458438807, type: D, server: 2, stream: 2]
+Next Event: [id: 18, time: 0.5458375951639838, type: A, server: -1, stream: 2]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 2
+DelayEvent : 
+[id: 15, time: 0.43107973104346936, type: A, server: -1, stream: 2]
+[id: 17, time: 0.48998106372036637, type: A, server: -1, stream: 2]
+ 
+Current time: 0.5458375951639838
+FutureEvent size: 4
+FutureEvent : 
+[id: 10, time: 0.5716271590055975, type: D, server: 1, stream: 1]
+[id: 19, time: 0.5978476897122645, type: A, server: -1, stream: 2]
+[id: 16, time: 0.7937083419035993, type: A, server: -1, stream: 1]
+[id: 11, time: 0.8445832458438807, type: D, server: 2, stream: 2]
+Next Event: [id: 10, time: 0.5716271590055975, type: D, server: 1, stream: 1]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 3
+DelayEvent : 
+[id: 15, time: 0.43107973104346936, type: A, server: -1, stream: 2]
+[id: 17, time: 0.48998106372036637, type: A, server: -1, stream: 2]
+[id: 18, time: 0.5458375951639838, type: A, server: -1, stream: 2]
+ 
+Current time: 0.5716271590055975
+FutureEvent size: 4
+FutureEvent : 
+[id: 15, time: 0.590279427914161, type: D, server: 1, stream: 2]
+[id: 19, time: 0.5978476897122645, type: A, server: -1, stream: 2]
+[id: 16, time: 0.7937083419035993, type: A, server: -1, stream: 1]
+[id: 11, time: 0.8445832458438807, type: D, server: 2, stream: 2]
+Next Event: [id: 15, time: 0.590279427914161, type: D, server: 1, stream: 2]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 2
+DelayEvent : 
+[id: 17, time: 0.48998106372036637, type: A, server: -1, stream: 2]
+[id: 18, time: 0.5458375951639838, type: A, server: -1, stream: 2]
+ 
+Current time: 0.590279427914161
+FutureEvent size: 4
+FutureEvent : 
+[id: 19, time: 0.5978476897122645, type: A, server: -1, stream: 2]
+[id: 17, time: 0.6158156937329827, type: D, server: 1, stream: 2]
+[id: 16, time: 0.7937083419035993, type: A, server: -1, stream: 1]
+[id: 11, time: 0.8445832458438807, type: D, server: 2, stream: 2]
+Next Event: [id: 19, time: 0.5978476897122645, type: A, server: -1, stream: 2]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 1
+DelayEvent : 
+[id: 18, time: 0.5458375951639838, type: A, server: -1, stream: 2]
+ 
+Current time: 0.5978476897122645
+FutureEvent size: 4
+FutureEvent : 
+[id: 17, time: 0.6158156937329827, type: D, server: 1, stream: 2]
+[id: 20, time: 0.673555606456458, type: A, server: -1, stream: 2]
+[id: 16, time: 0.7937083419035993, type: A, server: -1, stream: 1]
+[id: 11, time: 0.8445832458438807, type: D, server: 2, stream: 2]
+Next Event: [id: 17, time: 0.6158156937329827, type: D, server: 1, stream: 2]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 2
+DelayEvent : 
+[id: 18, time: 0.5458375951639838, type: A, server: -1, stream: 2]
+[id: 19, time: 0.5978476897122645, type: A, server: -1, stream: 2]
+ 
+Current time: 0.6158156937329827
+FutureEvent size: 4
+FutureEvent : 
+[id: 20, time: 0.673555606456458, type: A, server: -1, stream: 2]
+[id: 18, time: 0.680973397405713, type: D, server: 1, stream: 2]
+[id: 16, time: 0.7937083419035993, type: A, server: -1, stream: 1]
+[id: 11, time: 0.8445832458438807, type: D, server: 2, stream: 2]
+Next Event: [id: 20, time: 0.673555606456458, type: A, server: -1, stream: 2]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 1
+DelayEvent : 
+[id: 19, time: 0.5978476897122645, type: A, server: -1, stream: 2]
+ 
+Current time: 0.673555606456458
+FutureEvent size: 4
+FutureEvent : 
+[id: 18, time: 0.680973397405713, type: D, server: 1, stream: 2]
+[id: 21, time: 0.7764764370667947, type: A, server: -1, stream: 2]
+[id: 16, time: 0.7937083419035993, type: A, server: -1, stream: 1]
+[id: 11, time: 0.8445832458438807, type: D, server: 2, stream: 2]
+Next Event: [id: 18, time: 0.680973397405713, type: D, server: 1, stream: 2]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 2
+DelayEvent : 
+[id: 19, time: 0.5978476897122645, type: A, server: -1, stream: 2]
+[id: 20, time: 0.673555606456458, type: A, server: -1, stream: 2]
+ 
+Current time: 0.680973397405713
+FutureEvent size: 4
+FutureEvent : 
+[id: 21, time: 0.7764764370667947, type: A, server: -1, stream: 2]
+[id: 16, time: 0.7937083419035993, type: A, server: -1, stream: 1]
+[id: 11, time: 0.8445832458438807, type: D, server: 2, stream: 2]
+[id: 19, time: 1.0192065732292226, type: D, server: 1, stream: 2]
+Next Event: [id: 21, time: 0.7764764370667947, type: A, server: -1, stream: 2]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 1
+DelayEvent : 
+[id: 20, time: 0.673555606456458, type: A, server: -1, stream: 2]
+ 
+Current time: 0.7764764370667947
+FutureEvent size: 4
+FutureEvent : 
+[id: 16, time: 0.7937083419035993, type: A, server: -1, stream: 1]
+[id: 11, time: 0.8445832458438807, type: D, server: 2, stream: 2]
+[id: 22, time: 0.8944405252174938, type: A, server: -1, stream: 2]
+[id: 19, time: 1.0192065732292226, type: D, server: 1, stream: 2]
+Next Event: [id: 16, time: 0.7937083419035993, type: A, server: -1, stream: 1]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 2
+DelayEvent : 
+[id: 20, time: 0.673555606456458, type: A, server: -1, stream: 2]
+[id: 21, time: 0.7764764370667947, type: A, server: -1, stream: 2]
+ 
+Current time: 0.7937083419035993
+FutureEvent size: 4
+FutureEvent : 
+[id: 11, time: 0.8445832458438807, type: D, server: 2, stream: 2]
+[id: 23, time: 0.8451821658136603, type: A, server: -1, stream: 1]
+[id: 22, time: 0.8944405252174938, type: A, server: -1, stream: 2]
+[id: 19, time: 1.0192065732292226, type: D, server: 1, stream: 2]
+Next Event: [id: 11, time: 0.8445832458438807, type: D, server: 2, stream: 2]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 3
+DelayEvent : 
+[id: 20, time: 0.673555606456458, type: A, server: -1, stream: 2]
+[id: 21, time: 0.7764764370667947, type: A, server: -1, stream: 2]
+[id: 16, time: 0.7937083419035993, type: A, server: -1, stream: 1]
+ 
+Current time: 0.8445832458438807
+FutureEvent size: 4
+FutureEvent : 
+[id: 23, time: 0.8451821658136603, type: A, server: -1, stream: 1]
+[id: 20, time: 0.886637161484222, type: D, server: 2, stream: 2]
+[id: 22, time: 0.8944405252174938, type: A, server: -1, stream: 2]
+[id: 19, time: 1.0192065732292226, type: D, server: 1, stream: 2]
+Next Event: [id: 23, time: 0.8451821658136603, type: A, server: -1, stream: 1]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 2
+DelayEvent : 
+[id: 21, time: 0.7764764370667947, type: A, server: -1, stream: 2]
+[id: 16, time: 0.7937083419035993, type: A, server: -1, stream: 1]
+ 
+Current time: 0.8451821658136603
+FutureEvent size: 4
+FutureEvent : 
+[id: 24, time: 0.8790146601124965, type: A, server: -1, stream: 1]
+[id: 20, time: 0.886637161484222, type: D, server: 2, stream: 2]
+[id: 22, time: 0.8944405252174938, type: A, server: -1, stream: 2]
+[id: 19, time: 1.0192065732292226, type: D, server: 1, stream: 2]
+Next Event: [id: 24, time: 0.8790146601124965, type: A, server: -1, stream: 1]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 3
+DelayEvent : 
+[id: 21, time: 0.7764764370667947, type: A, server: -1, stream: 2]
+[id: 16, time: 0.7937083419035993, type: A, server: -1, stream: 1]
+[id: 23, time: 0.8451821658136603, type: A, server: -1, stream: 1]
+ 
+Current time: 0.8790146601124965
+FutureEvent size: 4
+FutureEvent : 
+[id: 20, time: 0.886637161484222, type: D, server: 2, stream: 2]
+[id: 22, time: 0.8944405252174938, type: A, server: -1, stream: 2]
+[id: 25, time: 0.8991889238358592, type: A, server: -1, stream: 1]
+[id: 19, time: 1.0192065732292226, type: D, server: 1, stream: 2]
+Next Event: [id: 20, time: 0.886637161484222, type: D, server: 2, stream: 2]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 4
+DelayEvent : 
+[id: 21, time: 0.7764764370667947, type: A, server: -1, stream: 2]
+[id: 16, time: 0.7937083419035993, type: A, server: -1, stream: 1]
+[id: 23, time: 0.8451821658136603, type: A, server: -1, stream: 1]
+[id: 24, time: 0.8790146601124965, type: A, server: -1, stream: 1]
+ 
+Current time: 0.886637161484222
+FutureEvent size: 4
+FutureEvent : 
+[id: 22, time: 0.8944405252174938, type: A, server: -1, stream: 2]
+[id: 25, time: 0.8991889238358592, type: A, server: -1, stream: 1]
+[id: 19, time: 1.0192065732292226, type: D, server: 1, stream: 2]
+[id: 21, time: 1.0714913781940396, type: D, server: 2, stream: 2]
+Next Event: [id: 22, time: 0.8944405252174938, type: A, server: -1, stream: 2]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 3
+DelayEvent : 
+[id: 16, time: 0.7937083419035993, type: A, server: -1, stream: 1]
+[id: 23, time: 0.8451821658136603, type: A, server: -1, stream: 1]
+[id: 24, time: 0.8790146601124965, type: A, server: -1, stream: 1]
+ 
+Current time: 0.8944405252174938
+FutureEvent size: 4
+FutureEvent : 
+[id: 25, time: 0.8991889238358592, type: A, server: -1, stream: 1]
+[id: 26, time: 0.9457765287169185, type: A, server: -1, stream: 2]
+[id: 19, time: 1.0192065732292226, type: D, server: 1, stream: 2]
+[id: 21, time: 1.0714913781940396, type: D, server: 2, stream: 2]
+Next Event: [id: 25, time: 0.8991889238358592, type: A, server: -1, stream: 1]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 4
+DelayEvent : 
+[id: 16, time: 0.7937083419035993, type: A, server: -1, stream: 1]
+[id: 23, time: 0.8451821658136603, type: A, server: -1, stream: 1]
+[id: 24, time: 0.8790146601124965, type: A, server: -1, stream: 1]
+[id: 22, time: 0.8944405252174938, type: A, server: -1, stream: 2]
+ 
+Current time: 0.8991889238358592
+FutureEvent size: 4
+FutureEvent : 
+[id: 27, time: 0.9035445266603098, type: A, server: -1, stream: 1]
+[id: 26, time: 0.9457765287169185, type: A, server: -1, stream: 2]
+[id: 19, time: 1.0192065732292226, type: D, server: 1, stream: 2]
+[id: 21, time: 1.0714913781940396, type: D, server: 2, stream: 2]
+Next Event: [id: 27, time: 0.9035445266603098, type: A, server: -1, stream: 1]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 5
+DelayEvent : 
+[id: 16, time: 0.7937083419035993, type: A, server: -1, stream: 1]
+[id: 23, time: 0.8451821658136603, type: A, server: -1, stream: 1]
+[id: 24, time: 0.8790146601124965, type: A, server: -1, stream: 1]
+[id: 22, time: 0.8944405252174938, type: A, server: -1, stream: 2]
+[id: 25, time: 0.8991889238358592, type: A, server: -1, stream: 1]
+ 
+Current time: 0.9035445266603098
+FutureEvent size: 4
+FutureEvent : 
+[id: 26, time: 0.9457765287169185, type: A, server: -1, stream: 2]
+[id: 19, time: 1.0192065732292226, type: D, server: 1, stream: 2]
+[id: 28, time: 1.0526077860400012, type: A, server: -1, stream: 1]
+[id: 21, time: 1.0714913781940396, type: D, server: 2, stream: 2]
+Next Event: [id: 26, time: 0.9457765287169185, type: A, server: -1, stream: 2]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 6
+DelayEvent : 
+[id: 16, time: 0.7937083419035993, type: A, server: -1, stream: 1]
+[id: 23, time: 0.8451821658136603, type: A, server: -1, stream: 1]
+[id: 24, time: 0.8790146601124965, type: A, server: -1, stream: 1]
+[id: 22, time: 0.8944405252174938, type: A, server: -1, stream: 2]
+[id: 25, time: 0.8991889238358592, type: A, server: -1, stream: 1]
+[id: 27, time: 0.9035445266603098, type: A, server: -1, stream: 1]
+ 
+Current time: 0.9457765287169185
+FutureEvent size: 4
+FutureEvent : 
+[id: 29, time: 0.9833788624777641, type: A, server: -1, stream: 2]
+[id: 19, time: 1.0192065732292226, type: D, server: 1, stream: 2]
+[id: 28, time: 1.0526077860400012, type: A, server: -1, stream: 1]
+[id: 21, time: 1.0714913781940396, type: D, server: 2, stream: 2]
+Next Event: [id: 29, time: 0.9833788624777641, type: A, server: -1, stream: 2]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 7
+DelayEvent : 
+[id: 16, time: 0.7937083419035993, type: A, server: -1, stream: 1]
+[id: 23, time: 0.8451821658136603, type: A, server: -1, stream: 1]
+[id: 24, time: 0.8790146601124965, type: A, server: -1, stream: 1]
+[id: 22, time: 0.8944405252174938, type: A, server: -1, stream: 2]
+[id: 25, time: 0.8991889238358592, type: A, server: -1, stream: 1]
+[id: 27, time: 0.9035445266603098, type: A, server: -1, stream: 1]
+[id: 26, time: 0.9457765287169185, type: A, server: -1, stream: 2]
+ 
+Current time: 0.9833788624777641
+FutureEvent size: 4
+FutureEvent : 
+[id: 30, time: 0.9952789348039823, type: A, server: -1, stream: 2]
+[id: 19, time: 1.0192065732292226, type: D, server: 1, stream: 2]
+[id: 28, time: 1.0526077860400012, type: A, server: -1, stream: 1]
+[id: 21, time: 1.0714913781940396, type: D, server: 2, stream: 2]
+Next Event: [id: 30, time: 0.9952789348039823, type: A, server: -1, stream: 2]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 8
+DelayEvent : 
+[id: 16, time: 0.7937083419035993, type: A, server: -1, stream: 1]
+[id: 23, time: 0.8451821658136603, type: A, server: -1, stream: 1]
+[id: 24, time: 0.8790146601124965, type: A, server: -1, stream: 1]
+[id: 22, time: 0.8944405252174938, type: A, server: -1, stream: 2]
+[id: 25, time: 0.8991889238358592, type: A, server: -1, stream: 1]
+[id: 27, time: 0.9035445266603098, type: A, server: -1, stream: 1]
+[id: 26, time: 0.9457765287169185, type: A, server: -1, stream: 2]
+[id: 29, time: 0.9833788624777641, type: A, server: -1, stream: 2]
+ 
+Current time: 0.9952789348039823
+FutureEvent size: 4
+FutureEvent : 
+[id: 19, time: 1.0192065732292226, type: D, server: 1, stream: 2]
+[id: 28, time: 1.0526077860400012, type: A, server: -1, stream: 1]
+[id: 21, time: 1.0714913781940396, type: D, server: 2, stream: 2]
+[id: 31, time: 1.3957617500856785, type: A, server: -1, stream: 2]
+Next Event: [id: 19, time: 1.0192065732292226, type: D, server: 1, stream: 2]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 9
+DelayEvent : 
+[id: 16, time: 0.7937083419035993, type: A, server: -1, stream: 1]
+[id: 23, time: 0.8451821658136603, type: A, server: -1, stream: 1]
+[id: 24, time: 0.8790146601124965, type: A, server: -1, stream: 1]
+[id: 22, time: 0.8944405252174938, type: A, server: -1, stream: 2]
+[id: 25, time: 0.8991889238358592, type: A, server: -1, stream: 1]
+[id: 27, time: 0.9035445266603098, type: A, server: -1, stream: 1]
+[id: 26, time: 0.9457765287169185, type: A, server: -1, stream: 2]
+[id: 29, time: 0.9833788624777641, type: A, server: -1, stream: 2]
+[id: 30, time: 0.9952789348039823, type: A, server: -1, stream: 2]
+ 
+Current time: 1.0192065732292226
+FutureEvent size: 4
+FutureEvent : 
+[id: 28, time: 1.0526077860400012, type: A, server: -1, stream: 1]
+[id: 16, time: 1.0535624688355143, type: D, server: 1, stream: 1]
+[id: 21, time: 1.0714913781940396, type: D, server: 2, stream: 2]
+[id: 31, time: 1.3957617500856785, type: A, server: -1, stream: 2]
+Next Event: [id: 28, time: 1.0526077860400012, type: A, server: -1, stream: 1]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 8
+DelayEvent : 
+[id: 23, time: 0.8451821658136603, type: A, server: -1, stream: 1]
+[id: 24, time: 0.8790146601124965, type: A, server: -1, stream: 1]
+[id: 22, time: 0.8944405252174938, type: A, server: -1, stream: 2]
+[id: 25, time: 0.8991889238358592, type: A, server: -1, stream: 1]
+[id: 27, time: 0.9035445266603098, type: A, server: -1, stream: 1]
+[id: 26, time: 0.9457765287169185, type: A, server: -1, stream: 2]
+[id: 29, time: 0.9833788624777641, type: A, server: -1, stream: 2]
+[id: 30, time: 0.9952789348039823, type: A, server: -1, stream: 2]
+ 
+Current time: 1.0526077860400012
+FutureEvent size: 4
+FutureEvent : 
+[id: 16, time: 1.0535624688355143, type: D, server: 1, stream: 1]
+[id: 21, time: 1.0714913781940396, type: D, server: 2, stream: 2]
+[id: 32, time: 1.2187443897477481, type: A, server: -1, stream: 1]
+[id: 31, time: 1.3957617500856785, type: A, server: -1, stream: 2]
+Next Event: [id: 16, time: 1.0535624688355143, type: D, server: 1, stream: 1]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 9
+DelayEvent : 
+[id: 23, time: 0.8451821658136603, type: A, server: -1, stream: 1]
+[id: 24, time: 0.8790146601124965, type: A, server: -1, stream: 1]
+[id: 22, time: 0.8944405252174938, type: A, server: -1, stream: 2]
+[id: 25, time: 0.8991889238358592, type: A, server: -1, stream: 1]
+[id: 27, time: 0.9035445266603098, type: A, server: -1, stream: 1]
+[id: 26, time: 0.9457765287169185, type: A, server: -1, stream: 2]
+[id: 29, time: 0.9833788624777641, type: A, server: -1, stream: 2]
+[id: 30, time: 0.9952789348039823, type: A, server: -1, stream: 2]
+[id: 28, time: 1.0526077860400012, type: A, server: -1, stream: 1]
+ 
+Current time: 1.0535624688355143
+FutureEvent size: 4
+FutureEvent : 
+[id: 21, time: 1.0714913781940396, type: D, server: 2, stream: 2]
+[id: 32, time: 1.2187443897477481, type: A, server: -1, stream: 1]
+[id: 31, time: 1.3957617500856785, type: A, server: -1, stream: 2]
+[id: 23, time: 1.4428352560818023, type: D, server: 1, stream: 1]
+Next Event: [id: 21, time: 1.0714913781940396, type: D, server: 2, stream: 2]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 8
+DelayEvent : 
+[id: 24, time: 0.8790146601124965, type: A, server: -1, stream: 1]
+[id: 22, time: 0.8944405252174938, type: A, server: -1, stream: 2]
+[id: 25, time: 0.8991889238358592, type: A, server: -1, stream: 1]
+[id: 27, time: 0.9035445266603098, type: A, server: -1, stream: 1]
+[id: 26, time: 0.9457765287169185, type: A, server: -1, stream: 2]
+[id: 29, time: 0.9833788624777641, type: A, server: -1, stream: 2]
+[id: 30, time: 0.9952789348039823, type: A, server: -1, stream: 2]
+[id: 28, time: 1.0526077860400012, type: A, server: -1, stream: 1]
+ 
+Current time: 1.0714913781940396
+FutureEvent size: 4
+FutureEvent : 
+[id: 32, time: 1.2187443897477481, type: A, server: -1, stream: 1]
+[id: 24, time: 1.224036763238339, type: D, server: 2, stream: 1]
+[id: 31, time: 1.3957617500856785, type: A, server: -1, stream: 2]
+[id: 23, time: 1.4428352560818023, type: D, server: 1, stream: 1]
+Next Event: [id: 32, time: 1.2187443897477481, type: A, server: -1, stream: 1]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 7
+DelayEvent : 
+[id: 22, time: 0.8944405252174938, type: A, server: -1, stream: 2]
+[id: 25, time: 0.8991889238358592, type: A, server: -1, stream: 1]
+[id: 27, time: 0.9035445266603098, type: A, server: -1, stream: 1]
+[id: 26, time: 0.9457765287169185, type: A, server: -1, stream: 2]
+[id: 29, time: 0.9833788624777641, type: A, server: -1, stream: 2]
+[id: 30, time: 0.9952789348039823, type: A, server: -1, stream: 2]
+[id: 28, time: 1.0526077860400012, type: A, server: -1, stream: 1]
+ 
+Current time: 1.2187443897477481
+FutureEvent size: 4
+FutureEvent : 
+[id: 24, time: 1.224036763238339, type: D, server: 2, stream: 1]
+[id: 33, time: 1.2740268032347764, type: A, server: -1, stream: 1]
+[id: 31, time: 1.3957617500856785, type: A, server: -1, stream: 2]
+[id: 23, time: 1.4428352560818023, type: D, server: 1, stream: 1]
+Next Event: [id: 24, time: 1.224036763238339, type: D, server: 2, stream: 1]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 8
+DelayEvent : 
+[id: 22, time: 0.8944405252174938, type: A, server: -1, stream: 2]
+[id: 25, time: 0.8991889238358592, type: A, server: -1, stream: 1]
+[id: 27, time: 0.9035445266603098, type: A, server: -1, stream: 1]
+[id: 26, time: 0.9457765287169185, type: A, server: -1, stream: 2]
+[id: 29, time: 0.9833788624777641, type: A, server: -1, stream: 2]
+[id: 30, time: 0.9952789348039823, type: A, server: -1, stream: 2]
+[id: 28, time: 1.0526077860400012, type: A, server: -1, stream: 1]
+[id: 32, time: 1.2187443897477481, type: A, server: -1, stream: 1]
+ 
+Current time: 1.224036763238339
+FutureEvent size: 4
+FutureEvent : 
+[id: 22, time: 1.225345465095526, type: D, server: 2, stream: 2]
+[id: 33, time: 1.2740268032347764, type: A, server: -1, stream: 1]
+[id: 31, time: 1.3957617500856785, type: A, server: -1, stream: 2]
+[id: 23, time: 1.4428352560818023, type: D, server: 1, stream: 1]
+Next Event: [id: 22, time: 1.225345465095526, type: D, server: 2, stream: 2]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 7
+DelayEvent : 
+[id: 25, time: 0.8991889238358592, type: A, server: -1, stream: 1]
+[id: 27, time: 0.9035445266603098, type: A, server: -1, stream: 1]
+[id: 26, time: 0.9457765287169185, type: A, server: -1, stream: 2]
+[id: 29, time: 0.9833788624777641, type: A, server: -1, stream: 2]
+[id: 30, time: 0.9952789348039823, type: A, server: -1, stream: 2]
+[id: 28, time: 1.0526077860400012, type: A, server: -1, stream: 1]
+[id: 32, time: 1.2187443897477481, type: A, server: -1, stream: 1]
+ 
+Current time: 1.225345465095526
+FutureEvent size: 4
+FutureEvent : 
+[id: 25, time: 1.2597106997899834, type: D, server: 2, stream: 1]
+[id: 33, time: 1.2740268032347764, type: A, server: -1, stream: 1]
+[id: 31, time: 1.3957617500856785, type: A, server: -1, stream: 2]
+[id: 23, time: 1.4428352560818023, type: D, server: 1, stream: 1]
+Next Event: [id: 25, time: 1.2597106997899834, type: D, server: 2, stream: 1]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 6
+DelayEvent : 
+[id: 27, time: 0.9035445266603098, type: A, server: -1, stream: 1]
+[id: 26, time: 0.9457765287169185, type: A, server: -1, stream: 2]
+[id: 29, time: 0.9833788624777641, type: A, server: -1, stream: 2]
+[id: 30, time: 0.9952789348039823, type: A, server: -1, stream: 2]
+[id: 28, time: 1.0526077860400012, type: A, server: -1, stream: 1]
+[id: 32, time: 1.2187443897477481, type: A, server: -1, stream: 1]
+ 
+Current time: 1.2597106997899834
+FutureEvent size: 4
+FutureEvent : 
+[id: 27, time: 1.2712909521442413, type: D, server: 2, stream: 1]
+[id: 33, time: 1.2740268032347764, type: A, server: -1, stream: 1]
+[id: 31, time: 1.3957617500856785, type: A, server: -1, stream: 2]
+[id: 23, time: 1.4428352560818023, type: D, server: 1, stream: 1]
+Next Event: [id: 27, time: 1.2712909521442413, type: D, server: 2, stream: 1]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 5
+DelayEvent : 
+[id: 26, time: 0.9457765287169185, type: A, server: -1, stream: 2]
+[id: 29, time: 0.9833788624777641, type: A, server: -1, stream: 2]
+[id: 30, time: 0.9952789348039823, type: A, server: -1, stream: 2]
+[id: 28, time: 1.0526077860400012, type: A, server: -1, stream: 1]
+[id: 32, time: 1.2187443897477481, type: A, server: -1, stream: 1]
+ 
+Current time: 1.2712909521442413
+FutureEvent size: 4
+FutureEvent : 
+[id: 33, time: 1.2740268032347764, type: A, server: -1, stream: 1]
+[id: 26, time: 1.3063392552944986, type: D, server: 2, stream: 2]
+[id: 31, time: 1.3957617500856785, type: A, server: -1, stream: 2]
+[id: 23, time: 1.4428352560818023, type: D, server: 1, stream: 1]
+Next Event: [id: 33, time: 1.2740268032347764, type: A, server: -1, stream: 1]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 4
+DelayEvent : 
+[id: 29, time: 0.9833788624777641, type: A, server: -1, stream: 2]
+[id: 30, time: 0.9952789348039823, type: A, server: -1, stream: 2]
+[id: 28, time: 1.0526077860400012, type: A, server: -1, stream: 1]
+[id: 32, time: 1.2187443897477481, type: A, server: -1, stream: 1]
+ 
+Current time: 1.2740268032347764
+FutureEvent size: 4
+FutureEvent : 
+[id: 26, time: 1.3063392552944986, type: D, server: 2, stream: 2]
+[id: 31, time: 1.3957617500856785, type: A, server: -1, stream: 2]
+[id: 34, time: 1.4180592644885412, type: A, server: -1, stream: 1]
+[id: 23, time: 1.4428352560818023, type: D, server: 1, stream: 1]
+Next Event: [id: 26, time: 1.3063392552944986, type: D, server: 2, stream: 2]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 5
+DelayEvent : 
+[id: 29, time: 0.9833788624777641, type: A, server: -1, stream: 2]
+[id: 30, time: 0.9952789348039823, type: A, server: -1, stream: 2]
+[id: 28, time: 1.0526077860400012, type: A, server: -1, stream: 1]
+[id: 32, time: 1.2187443897477481, type: A, server: -1, stream: 1]
+[id: 33, time: 1.2740268032347764, type: A, server: -1, stream: 1]
+ 
+Current time: 1.3063392552944986
+FutureEvent size: 4
+FutureEvent : 
+[id: 29, time: 1.32715008843693, type: D, server: 2, stream: 2]
+[id: 31, time: 1.3957617500856785, type: A, server: -1, stream: 2]
+[id: 34, time: 1.4180592644885412, type: A, server: -1, stream: 1]
+[id: 23, time: 1.4428352560818023, type: D, server: 1, stream: 1]
+Next Event: [id: 29, time: 1.32715008843693, type: D, server: 2, stream: 2]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 4
+DelayEvent : 
+[id: 30, time: 0.9952789348039823, type: A, server: -1, stream: 2]
+[id: 28, time: 1.0526077860400012, type: A, server: -1, stream: 1]
+[id: 32, time: 1.2187443897477481, type: A, server: -1, stream: 1]
+[id: 33, time: 1.2740268032347764, type: A, server: -1, stream: 1]
+ 
+Current time: 1.32715008843693
+FutureEvent size: 4
+FutureEvent : 
+[id: 30, time: 1.3863888253301349, type: D, server: 2, stream: 2]
+[id: 31, time: 1.3957617500856785, type: A, server: -1, stream: 2]
+[id: 34, time: 1.4180592644885412, type: A, server: -1, stream: 1]
+[id: 23, time: 1.4428352560818023, type: D, server: 1, stream: 1]
+Next Event: [id: 30, time: 1.3863888253301349, type: D, server: 2, stream: 2]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 3
+DelayEvent : 
+[id: 28, time: 1.0526077860400012, type: A, server: -1, stream: 1]
+[id: 32, time: 1.2187443897477481, type: A, server: -1, stream: 1]
+[id: 33, time: 1.2740268032347764, type: A, server: -1, stream: 1]
+ 
+Current time: 1.3863888253301349
+FutureEvent size: 4
+FutureEvent : 
+[id: 31, time: 1.3957617500856785, type: A, server: -1, stream: 2]
+[id: 34, time: 1.4180592644885412, type: A, server: -1, stream: 1]
+[id: 23, time: 1.4428352560818023, type: D, server: 1, stream: 1]
+[id: 28, time: 1.4742375618088024, type: D, server: 2, stream: 1]
+Next Event: [id: 31, time: 1.3957617500856785, type: A, server: -1, stream: 2]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 2
+DelayEvent : 
+[id: 32, time: 1.2187443897477481, type: A, server: -1, stream: 1]
+[id: 33, time: 1.2740268032347764, type: A, server: -1, stream: 1]
+ 
+Current time: 1.3957617500856785
+FutureEvent size: 4
+FutureEvent : 
+[id: 34, time: 1.4180592644885412, type: A, server: -1, stream: 1]
+[id: 23, time: 1.4428352560818023, type: D, server: 1, stream: 1]
+[id: 28, time: 1.4742375618088024, type: D, server: 2, stream: 1]
+[id: 35, time: 1.7052193679689398, type: A, server: -1, stream: 2]
+Next Event: [id: 34, time: 1.4180592644885412, type: A, server: -1, stream: 1]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 3
+DelayEvent : 
+[id: 32, time: 1.2187443897477481, type: A, server: -1, stream: 1]
+[id: 33, time: 1.2740268032347764, type: A, server: -1, stream: 1]
+[id: 31, time: 1.3957617500856785, type: A, server: -1, stream: 2]
+ 
+Current time: 1.4180592644885412
+FutureEvent size: 4
+FutureEvent : 
+[id: 23, time: 1.4428352560818023, type: D, server: 1, stream: 1]
+[id: 28, time: 1.4742375618088024, type: D, server: 2, stream: 1]
+[id: 36, time: 1.4785540713248162, type: A, server: -1, stream: 1]
+[id: 35, time: 1.7052193679689398, type: A, server: -1, stream: 2]
+Next Event: [id: 23, time: 1.4428352560818023, type: D, server: 1, stream: 1]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 4
+DelayEvent : 
+[id: 32, time: 1.2187443897477481, type: A, server: -1, stream: 1]
+[id: 33, time: 1.2740268032347764, type: A, server: -1, stream: 1]
+[id: 31, time: 1.3957617500856785, type: A, server: -1, stream: 2]
+[id: 34, time: 1.4180592644885412, type: A, server: -1, stream: 1]
+ 
+Current time: 1.4428352560818023
+FutureEvent size: 4
+FutureEvent : 
+[id: 28, time: 1.4742375618088024, type: D, server: 2, stream: 1]
+[id: 36, time: 1.4785540713248162, type: A, server: -1, stream: 1]
+[id: 32, time: 1.5574195810661253, type: D, server: 1, stream: 1]
+[id: 35, time: 1.7052193679689398, type: A, server: -1, stream: 2]
+Next Event: [id: 28, time: 1.4742375618088024, type: D, server: 2, stream: 1]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 3
+DelayEvent : 
+[id: 33, time: 1.2740268032347764, type: A, server: -1, stream: 1]
+[id: 31, time: 1.3957617500856785, type: A, server: -1, stream: 2]
+[id: 34, time: 1.4180592644885412, type: A, server: -1, stream: 1]
+ 
+Current time: 1.4742375618088024
+FutureEvent size: 4
+FutureEvent : 
+[id: 36, time: 1.4785540713248162, type: A, server: -1, stream: 1]
+[id: 33, time: 1.4821292384931097, type: D, server: 2, stream: 1]
+[id: 32, time: 1.5574195810661253, type: D, server: 1, stream: 1]
+[id: 35, time: 1.7052193679689398, type: A, server: -1, stream: 2]
+Next Event: [id: 36, time: 1.4785540713248162, type: A, server: -1, stream: 1]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 2
+DelayEvent : 
+[id: 31, time: 1.3957617500856785, type: A, server: -1, stream: 2]
+[id: 34, time: 1.4180592644885412, type: A, server: -1, stream: 1]
+ 
+Current time: 1.4785540713248162
+FutureEvent size: 4
+FutureEvent : 
+[id: 37, time: 1.4816147479883646, type: A, server: -1, stream: 1]
+[id: 33, time: 1.4821292384931097, type: D, server: 2, stream: 1]
+[id: 32, time: 1.5574195810661253, type: D, server: 1, stream: 1]
+[id: 35, time: 1.7052193679689398, type: A, server: -1, stream: 2]
+Next Event: [id: 37, time: 1.4816147479883646, type: A, server: -1, stream: 1]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 3
+DelayEvent : 
+[id: 31, time: 1.3957617500856785, type: A, server: -1, stream: 2]
+[id: 34, time: 1.4180592644885412, type: A, server: -1, stream: 1]
+[id: 36, time: 1.4785540713248162, type: A, server: -1, stream: 1]
+ 
+Current time: 1.4816147479883646
+FutureEvent size: 4
+FutureEvent : 
+[id: 33, time: 1.4821292384931097, type: D, server: 2, stream: 1]
+[id: 38, time: 1.4939003004067868, type: A, server: -1, stream: 1]
+[id: 32, time: 1.5574195810661253, type: D, server: 1, stream: 1]
+[id: 35, time: 1.7052193679689398, type: A, server: -1, stream: 2]
+Next Event: [id: 33, time: 1.4821292384931097, type: D, server: 2, stream: 1]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 4
+DelayEvent : 
+[id: 31, time: 1.3957617500856785, type: A, server: -1, stream: 2]
+[id: 34, time: 1.4180592644885412, type: A, server: -1, stream: 1]
+[id: 36, time: 1.4785540713248162, type: A, server: -1, stream: 1]
+[id: 37, time: 1.4816147479883646, type: A, server: -1, stream: 1]
+ 
+Current time: 1.4821292384931097
+FutureEvent size: 4
+FutureEvent : 
+[id: 38, time: 1.4939003004067868, type: A, server: -1, stream: 1]
+[id: 31, time: 1.5353007555980513, type: D, server: 2, stream: 2]
+[id: 32, time: 1.5574195810661253, type: D, server: 1, stream: 1]
+[id: 35, time: 1.7052193679689398, type: A, server: -1, stream: 2]
+Next Event: [id: 38, time: 1.4939003004067868, type: A, server: -1, stream: 1]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 3
+DelayEvent : 
+[id: 34, time: 1.4180592644885412, type: A, server: -1, stream: 1]
+[id: 36, time: 1.4785540713248162, type: A, server: -1, stream: 1]
+[id: 37, time: 1.4816147479883646, type: A, server: -1, stream: 1]
+ 
+Current time: 1.4939003004067868
+FutureEvent size: 4
+FutureEvent : 
+[id: 39, time: 1.4978142831266974, type: A, server: -1, stream: 1]
+[id: 31, time: 1.5353007555980513, type: D, server: 2, stream: 2]
+[id: 32, time: 1.5574195810661253, type: D, server: 1, stream: 1]
+[id: 35, time: 1.7052193679689398, type: A, server: -1, stream: 2]
+Next Event: [id: 39, time: 1.4978142831266974, type: A, server: -1, stream: 1]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 4
+DelayEvent : 
+[id: 34, time: 1.4180592644885412, type: A, server: -1, stream: 1]
+[id: 36, time: 1.4785540713248162, type: A, server: -1, stream: 1]
+[id: 37, time: 1.4816147479883646, type: A, server: -1, stream: 1]
+[id: 38, time: 1.4939003004067868, type: A, server: -1, stream: 1]
+ 
+Current time: 1.4978142831266974
+FutureEvent size: 4
+FutureEvent : 
+[id: 31, time: 1.5353007555980513, type: D, server: 2, stream: 2]
+[id: 32, time: 1.5574195810661253, type: D, server: 1, stream: 1]
+[id: 35, time: 1.7052193679689398, type: A, server: -1, stream: 2]
+[id: 40, time: 2.033931463181815, type: A, server: -1, stream: 1]
+Next Event: [id: 31, time: 1.5353007555980513, type: D, server: 2, stream: 2]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 5
+DelayEvent : 
+[id: 34, time: 1.4180592644885412, type: A, server: -1, stream: 1]
+[id: 36, time: 1.4785540713248162, type: A, server: -1, stream: 1]
+[id: 37, time: 1.4816147479883646, type: A, server: -1, stream: 1]
+[id: 38, time: 1.4939003004067868, type: A, server: -1, stream: 1]
+[id: 39, time: 1.4978142831266974, type: A, server: -1, stream: 1]
+ 
+Current time: 1.5353007555980513
+FutureEvent size: 4
+FutureEvent : 
+[id: 32, time: 1.5574195810661253, type: D, server: 1, stream: 1]
+[id: 35, time: 1.7052193679689398, type: A, server: -1, stream: 2]
+[id: 34, time: 1.7362621444778457, type: D, server: 2, stream: 1]
+[id: 40, time: 2.033931463181815, type: A, server: -1, stream: 1]
+Next Event: [id: 32, time: 1.5574195810661253, type: D, server: 1, stream: 1]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 4
+DelayEvent : 
+[id: 36, time: 1.4785540713248162, type: A, server: -1, stream: 1]
+[id: 37, time: 1.4816147479883646, type: A, server: -1, stream: 1]
+[id: 38, time: 1.4939003004067868, type: A, server: -1, stream: 1]
+[id: 39, time: 1.4978142831266974, type: A, server: -1, stream: 1]
+ 
+Current time: 1.5574195810661253
+FutureEvent size: 4
+FutureEvent : 
+[id: 36, time: 1.616359001193624, type: D, server: 1, stream: 1]
+[id: 35, time: 1.7052193679689398, type: A, server: -1, stream: 2]
+[id: 34, time: 1.7362621444778457, type: D, server: 2, stream: 1]
+[id: 40, time: 2.033931463181815, type: A, server: -1, stream: 1]
+Next Event: [id: 36, time: 1.616359001193624, type: D, server: 1, stream: 1]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 3
+DelayEvent : 
+[id: 37, time: 1.4816147479883646, type: A, server: -1, stream: 1]
+[id: 38, time: 1.4939003004067868, type: A, server: -1, stream: 1]
+[id: 39, time: 1.4978142831266974, type: A, server: -1, stream: 1]
+ 
+Current time: 1.616359001193624
+FutureEvent size: 4
+FutureEvent : 
+[id: 35, time: 1.7052193679689398, type: A, server: -1, stream: 2]
+[id: 34, time: 1.7362621444778457, type: D, server: 2, stream: 1]
+[id: 37, time: 1.870046835264009, type: D, server: 1, stream: 1]
+[id: 40, time: 2.033931463181815, type: A, server: -1, stream: 1]
+Next Event: [id: 35, time: 1.7052193679689398, type: A, server: -1, stream: 2]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 2
+DelayEvent : 
+[id: 38, time: 1.4939003004067868, type: A, server: -1, stream: 1]
+[id: 39, time: 1.4978142831266974, type: A, server: -1, stream: 1]
+ 
+Current time: 1.7052193679689398
+FutureEvent size: 4
+FutureEvent : 
+[id: 34, time: 1.7362621444778457, type: D, server: 2, stream: 1]
+[id: 41, time: 1.7687577968003807, type: A, server: -1, stream: 2]
+[id: 37, time: 1.870046835264009, type: D, server: 1, stream: 1]
+[id: 40, time: 2.033931463181815, type: A, server: -1, stream: 1]
+Next Event: [id: 34, time: 1.7362621444778457, type: D, server: 2, stream: 1]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 3
+DelayEvent : 
+[id: 38, time: 1.4939003004067868, type: A, server: -1, stream: 1]
+[id: 39, time: 1.4978142831266974, type: A, server: -1, stream: 1]
+[id: 35, time: 1.7052193679689398, type: A, server: -1, stream: 2]
+ 
+Current time: 1.7362621444778457
+FutureEvent size: 4
+FutureEvent : 
+[id: 41, time: 1.7687577968003807, type: A, server: -1, stream: 2]
+[id: 37, time: 1.870046835264009, type: D, server: 1, stream: 1]
+[id: 38, time: 1.887644561905455, type: D, server: 2, stream: 1]
+[id: 40, time: 2.033931463181815, type: A, server: -1, stream: 1]
+Next Event: [id: 41, time: 1.7687577968003807, type: A, server: -1, stream: 2]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 2
+DelayEvent : 
+[id: 39, time: 1.4978142831266974, type: A, server: -1, stream: 1]
+[id: 35, time: 1.7052193679689398, type: A, server: -1, stream: 2]
+ 
+Current time: 1.7687577968003807
+FutureEvent size: 4
+FutureEvent : 
+[id: 42, time: 1.8322276213097959, type: A, server: -1, stream: 2]
+[id: 37, time: 1.870046835264009, type: D, server: 1, stream: 1]
+[id: 38, time: 1.887644561905455, type: D, server: 2, stream: 1]
+[id: 40, time: 2.033931463181815, type: A, server: -1, stream: 1]
+Next Event: [id: 42, time: 1.8322276213097959, type: A, server: -1, stream: 2]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 3
+DelayEvent : 
+[id: 39, time: 1.4978142831266974, type: A, server: -1, stream: 1]
+[id: 35, time: 1.7052193679689398, type: A, server: -1, stream: 2]
+[id: 41, time: 1.7687577968003807, type: A, server: -1, stream: 2]
+ 
+Current time: 1.8322276213097959
+FutureEvent size: 4
+FutureEvent : 
+[id: 43, time: 1.8347399887570317, type: A, server: -1, stream: 2]
+[id: 37, time: 1.870046835264009, type: D, server: 1, stream: 1]
+[id: 38, time: 1.887644561905455, type: D, server: 2, stream: 1]
+[id: 40, time: 2.033931463181815, type: A, server: -1, stream: 1]
+Next Event: [id: 43, time: 1.8347399887570317, type: A, server: -1, stream: 2]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 4
+DelayEvent : 
+[id: 39, time: 1.4978142831266974, type: A, server: -1, stream: 1]
+[id: 35, time: 1.7052193679689398, type: A, server: -1, stream: 2]
+[id: 41, time: 1.7687577968003807, type: A, server: -1, stream: 2]
+[id: 42, time: 1.8322276213097959, type: A, server: -1, stream: 2]
+ 
+Current time: 1.8347399887570317
+FutureEvent size: 4
+FutureEvent : 
+[id: 37, time: 1.870046835264009, type: D, server: 1, stream: 1]
+[id: 38, time: 1.887644561905455, type: D, server: 2, stream: 1]
+[id: 44, time: 1.9091016106522287, type: A, server: -1, stream: 2]
+[id: 40, time: 2.033931463181815, type: A, server: -1, stream: 1]
+Next Event: [id: 37, time: 1.870046835264009, type: D, server: 1, stream: 1]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 5
+DelayEvent : 
+[id: 39, time: 1.4978142831266974, type: A, server: -1, stream: 1]
+[id: 35, time: 1.7052193679689398, type: A, server: -1, stream: 2]
+[id: 41, time: 1.7687577968003807, type: A, server: -1, stream: 2]
+[id: 42, time: 1.8322276213097959, type: A, server: -1, stream: 2]
+[id: 43, time: 1.8347399887570317, type: A, server: -1, stream: 2]
+ 
+Current time: 1.870046835264009
+FutureEvent size: 4
+FutureEvent : 
+[id: 38, time: 1.887644561905455, type: D, server: 2, stream: 1]
+[id: 44, time: 1.9091016106522287, type: A, server: -1, stream: 2]
+[id: 39, time: 1.9338790720172585, type: D, server: 1, stream: 1]
+[id: 40, time: 2.033931463181815, type: A, server: -1, stream: 1]
+Next Event: [id: 38, time: 1.887644561905455, type: D, server: 2, stream: 1]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 4
+DelayEvent : 
+[id: 35, time: 1.7052193679689398, type: A, server: -1, stream: 2]
+[id: 41, time: 1.7687577968003807, type: A, server: -1, stream: 2]
+[id: 42, time: 1.8322276213097959, type: A, server: -1, stream: 2]
+[id: 43, time: 1.8347399887570317, type: A, server: -1, stream: 2]
+ 
+Current time: 1.887644561905455
+FutureEvent size: 4
+FutureEvent : 
+[id: 35, time: 1.8899200690520246, type: D, server: 2, stream: 2]
+[id: 44, time: 1.9091016106522287, type: A, server: -1, stream: 2]
+[id: 39, time: 1.9338790720172585, type: D, server: 1, stream: 1]
+[id: 40, time: 2.033931463181815, type: A, server: -1, stream: 1]
+Next Event: [id: 35, time: 1.8899200690520246, type: D, server: 2, stream: 2]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 3
+DelayEvent : 
+[id: 41, time: 1.7687577968003807, type: A, server: -1, stream: 2]
+[id: 42, time: 1.8322276213097959, type: A, server: -1, stream: 2]
+[id: 43, time: 1.8347399887570317, type: A, server: -1, stream: 2]
+ 
+Current time: 1.8899200690520246
+FutureEvent size: 4
+FutureEvent : 
+[id: 44, time: 1.9091016106522287, type: A, server: -1, stream: 2]
+[id: 41, time: 1.924170098409228, type: D, server: 2, stream: 2]
+[id: 39, time: 1.9338790720172585, type: D, server: 1, stream: 1]
+[id: 40, time: 2.033931463181815, type: A, server: -1, stream: 1]
+Next Event: [id: 44, time: 1.9091016106522287, type: A, server: -1, stream: 2]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 2
+DelayEvent : 
+[id: 42, time: 1.8322276213097959, type: A, server: -1, stream: 2]
+[id: 43, time: 1.8347399887570317, type: A, server: -1, stream: 2]
+ 
+Current time: 1.9091016106522287
+FutureEvent size: 4
+FutureEvent : 
+[id: 41, time: 1.924170098409228, type: D, server: 2, stream: 2]
+[id: 39, time: 1.9338790720172585, type: D, server: 1, stream: 1]
+[id: 45, time: 1.989489569036088, type: A, server: -1, stream: 2]
+[id: 40, time: 2.033931463181815, type: A, server: -1, stream: 1]
+Next Event: [id: 41, time: 1.924170098409228, type: D, server: 2, stream: 2]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 3
+DelayEvent : 
+[id: 42, time: 1.8322276213097959, type: A, server: -1, stream: 2]
+[id: 43, time: 1.8347399887570317, type: A, server: -1, stream: 2]
+[id: 44, time: 1.9091016106522287, type: A, server: -1, stream: 2]
+ 
+Current time: 1.924170098409228
+FutureEvent size: 4
+FutureEvent : 
+[id: 39, time: 1.9338790720172585, type: D, server: 1, stream: 1]
+[id: 45, time: 1.989489569036088, type: A, server: -1, stream: 2]
+[id: 42, time: 2.0301889917099323, type: D, server: 2, stream: 2]
+[id: 40, time: 2.033931463181815, type: A, server: -1, stream: 1]
+Next Event: [id: 39, time: 1.9338790720172585, type: D, server: 1, stream: 1]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 2
+DelayEvent : 
+[id: 43, time: 1.8347399887570317, type: A, server: -1, stream: 2]
+[id: 44, time: 1.9091016106522287, type: A, server: -1, stream: 2]
+ 
+Current time: 1.9338790720172585
+FutureEvent size: 4
+FutureEvent : 
+[id: 43, time: 1.950557105117744, type: D, server: 1, stream: 2]
+[id: 45, time: 1.989489569036088, type: A, server: -1, stream: 2]
+[id: 42, time: 2.0301889917099323, type: D, server: 2, stream: 2]
+[id: 40, time: 2.033931463181815, type: A, server: -1, stream: 1]
+Next Event: [id: 43, time: 1.950557105117744, type: D, server: 1, stream: 2]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 1
+DelayEvent : 
+[id: 44, time: 1.9091016106522287, type: A, server: -1, stream: 2]
+ 
+Current time: 1.950557105117744
+FutureEvent size: 4
+FutureEvent : 
+[id: 44, time: 1.9733029431220317, type: D, server: 1, stream: 2]
+[id: 45, time: 1.989489569036088, type: A, server: -1, stream: 2]
+[id: 42, time: 2.0301889917099323, type: D, server: 2, stream: 2]
+[id: 40, time: 2.033931463181815, type: A, server: -1, stream: 1]
+Next Event: [id: 44, time: 1.9733029431220317, type: D, server: 1, stream: 2]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 0
+DelayEvent : 
+Empty List.
+ 
+Current time: 1.9733029431220317
+FutureEvent size: 3
+FutureEvent : 
+[id: 45, time: 1.989489569036088, type: A, server: -1, stream: 2]
+[id: 42, time: 2.0301889917099323, type: D, server: 2, stream: 2]
+[id: 40, time: 2.033931463181815, type: A, server: -1, stream: 1]
+Next Event: [id: 45, time: 1.989489569036088, type: A, server: -1, stream: 2]
+Server state: Server1: 0, Server2: 1
+DelayQueue size: 0
+DelayEvent : 
+Empty List.
+ 
+Current time: 1.989489569036088
+FutureEvent size: 4
+FutureEvent : 
+[id: 45, time: 2.0051751655947516, type: D, server: 1, stream: 2]
+[id: 42, time: 2.0301889917099323, type: D, server: 2, stream: 2]
+[id: 46, time: 2.0325562455803547, type: A, server: -1, stream: 2]
+[id: 40, time: 2.033931463181815, type: A, server: -1, stream: 1]
+Next Event: [id: 45, time: 2.0051751655947516, type: D, server: 1, stream: 2]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 0
+DelayEvent : 
+Empty List.
+ 
+Current time: 2.0051751655947516
+FutureEvent size: 3
+FutureEvent : 
+[id: 42, time: 2.0301889917099323, type: D, server: 2, stream: 2]
+[id: 46, time: 2.0325562455803547, type: A, server: -1, stream: 2]
+[id: 40, time: 2.033931463181815, type: A, server: -1, stream: 1]
+Next Event: [id: 42, time: 2.0301889917099323, type: D, server: 2, stream: 2]
+Server state: Server1: 0, Server2: 1
+DelayQueue size: 0
+DelayEvent : 
+Empty List.
+ 
+Current time: 2.0301889917099323
+FutureEvent size: 2
+FutureEvent : 
+[id: 46, time: 2.0325562455803547, type: A, server: -1, stream: 2]
+[id: 40, time: 2.033931463181815, type: A, server: -1, stream: 1]
+Next Event: [id: 46, time: 2.0325562455803547, type: A, server: -1, stream: 2]
+Server state: Server1: 0, Server2: 0
+DelayQueue size: 0
+DelayEvent : 
+Empty List.
+ 
+Current time: 2.0325562455803547
+FutureEvent size: 3
+FutureEvent : 
+[id: 40, time: 2.033931463181815, type: A, server: -1, stream: 1]
+[id: 46, time: 2.108459910485948, type: D, server: 1, stream: 2]
+[id: 47, time: 2.1452344276131554, type: A, server: -1, stream: 2]
+Next Event: [id: 40, time: 2.033931463181815, type: A, server: -1, stream: 1]
+Server state: Server1: 1, Server2: 0
+DelayQueue size: 0
+DelayEvent : 
+Empty List.
+ 
+Current time: 2.033931463181815
+FutureEvent size: 4
+FutureEvent : 
+[id: 46, time: 2.108459910485948, type: D, server: 1, stream: 2]
+[id: 40, time: 2.144807486669917, type: D, server: 2, stream: 1]
+[id: 47, time: 2.1452344276131554, type: A, server: -1, stream: 2]
+[id: 48, time: 2.3727124180884984, type: A, server: -1, stream: 1]
+Next Event: [id: 46, time: 2.108459910485948, type: D, server: 1, stream: 2]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 0
+DelayEvent : 
+Empty List.
+ 
+Current time: 2.108459910485948
+FutureEvent size: 3
+FutureEvent : 
+[id: 40, time: 2.144807486669917, type: D, server: 2, stream: 1]
+[id: 47, time: 2.1452344276131554, type: A, server: -1, stream: 2]
+[id: 48, time: 2.3727124180884984, type: A, server: -1, stream: 1]
+Next Event: [id: 40, time: 2.144807486669917, type: D, server: 2, stream: 1]
+Server state: Server1: 0, Server2: 1
+DelayQueue size: 0
+DelayEvent : 
+Empty List.
+ 
+Current time: 2.144807486669917
+FutureEvent size: 2
+FutureEvent : 
+[id: 47, time: 2.1452344276131554, type: A, server: -1, stream: 2]
+[id: 48, time: 2.3727124180884984, type: A, server: -1, stream: 1]
+Next Event: [id: 47, time: 2.1452344276131554, type: A, server: -1, stream: 2]
+Server state: Server1: 0, Server2: 0
+DelayQueue size: 0
+DelayEvent : 
+Empty List.
+ 
+Current time: 2.1452344276131554
+FutureEvent size: 3
+FutureEvent : 
+[id: 49, time: 2.146061633783782, type: A, server: -1, stream: 2]
+[id: 47, time: 2.1772716996715737, type: D, server: 1, stream: 2]
+[id: 48, time: 2.3727124180884984, type: A, server: -1, stream: 1]
+Next Event: [id: 49, time: 2.146061633783782, type: A, server: -1, stream: 2]
+Server state: Server1: 1, Server2: 0
+DelayQueue size: 0
+DelayEvent : 
+Empty List.
+ 
+Current time: 2.146061633783782
+FutureEvent size: 4
+FutureEvent : 
+[id: 49, time: 2.1465160870024347, type: D, server: 2, stream: 2]
+[id: 47, time: 2.1772716996715737, type: D, server: 1, stream: 2]
+[id: 50, time: 2.1909702548024064, type: A, server: -1, stream: 2]
+[id: 48, time: 2.3727124180884984, type: A, server: -1, stream: 1]
+Next Event: [id: 49, time: 2.1465160870024347, type: D, server: 2, stream: 2]
+Server state: Server1: 1, Server2: 1
+DelayQueue size: 0
+DelayEvent : 
+Empty List.
+ 
+Current time: 2.1465160870024347
+FutureEvent size: 3
+FutureEvent : 
+[id: 47, time: 2.1772716996715737, type: D, server: 1, stream: 2]
+[id: 50, time: 2.1909702548024064, type: A, server: -1, stream: 2]
+[id: 48, time: 2.3727124180884984, type: A, server: -1, stream: 1]
+Next Event: [id: 47, time: 2.1772716996715737, type: D, server: 1, stream: 2]
+Server state: Server1: 1, Server2: 0
+DelayQueue size: 0
+DelayEvent : 
+Empty List.
+ 
+Current time: 2.1772716996715737
+FutureEvent size: 2
+FutureEvent : 
+[id: 50, time: 2.1909702548024064, type: A, server: -1, stream: 2]
+[id: 48, time: 2.3727124180884984, type: A, server: -1, stream: 1]
+Next Event: [id: 50, time: 2.1909702548024064, type: A, server: -1, stream: 2]
+Server state: Server1: 0, Server2: 0
+DelayQueue size: 0
+DelayEvent : 
+Empty List.
+ 
+Current time: 2.1909702548024064
+FutureEvent size: 3
+FutureEvent : 
+[id: 51, time: 2.2046210611894326, type: A, server: -1, stream: 2]
+[id: 50, time: 2.2409543211381684, type: D, server: 1, stream: 2]
+[id: 48, time: 2.3727124180884984, type: A, server: -1, stream: 1]
+Next Event: [id: 51, time: 2.2046210611894326, type: A, server: -1, stream: 2]
+Server state: Server1: 1, Server2: 0
+DelayQueue size: 0
+DelayEvent : 
+Empty List.

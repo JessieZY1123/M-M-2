@@ -1,0 +1,88 @@
+/*
+ * Ziyan Jiang -----M/M/2-Output
+ */
+Output:
+Service rate=12：
+The number of Stream 1: 2457
+The number of Stream 2: 7543
+Stream1 Input speed: 0.20315070538696328
+Stream2 Input speed: 0.06617916955861823
+
+The number of Server 1: 5099
+The number of Server 2: 4901
+Total Serviced: 10000
+Total Arrived: 10000
+
+Total Delay time in queue: 1971.5974478088312
+Average Delay time in queue: 0.19715974478088313
+
+Total wait time of server1: 1390.3951168656351
+Total wait time of server2: 1409.991660773545
+Total wait time of System: 2800.38677763918
+Average WaitTime: 0.280038677763918
+
+TotalServer1 ServerTime: 427.5297357426572
+Average Server1 ServerTime: 0.08384580030254112
+TotalServer2 ServerTime: 401.2595940877
+Average Server2 ServerTime: 0.08187300430273414
+
+Total idle time: 121.32515170134185
+Average idle time of Server1: 0.0291702164363708
+Average idle time of Server2: 0.006582782701468753
+
+
+Service rate=13：
+The number of Stream 1: 2465
+The number of Stream 2: 7535
+Stream1 Input speed: 0.20265044696086762
+Stream2 Input speed: 0.06630036162539088
+
+The number of Server 1: 5262
+The number of Server 2: 4738
+Total Serviced: 10000
+Total Arrived: 10000
+
+Total Delay time in queue: 896.2313839350923
+Average Delay time in queue: 0.08962313839350923
+
+Total wait time of server1: 851.2485607610381
+Total wait time of server2: 804.7653396823941
+Total wait time of System: 1656.0139004434322
+Average WaitTime: 0.16560139004434324
+
+TotalServer1 ServerTime: 399.6194295507938
+Average Server1 ServerTime: 0.07594439938251497
+TotalServer2 ServerTime: 360.16308695754265
+Average Server2 ServerTime: 0.07601584781712593
+
+Total idle time: 171.86059416787162
+Average idle time of Server1: 0.04058916867908461
+Average idle time of Server2: 0.00952996594212715
+
+Service rate=14：
+The number of Stream 1: 2532
+The number of Stream 2: 7468
+Stream1 Input speed: 0.20043829161606821
+Stream2 Input speed: 0.06795214572936571
+
+The number of Server 1: 5407
+The number of Server 2: 4592
+Total Serviced: 9999
+Total Arrived: 10000
+
+Total Delay time in queue: 665.8560862426616
+Average Delay time in queue: 0.06658560862426616
+
+Total wait time of server1: 718.2300728707858
+Total wait time of server2: 654.2373279394369
+Total wait time of System: 1372.4674008102227
+Average WaitTime: 0.13724674008102228
+
+TotalServer1 ServerTime: 381.6890582846432
+Average Server1 ServerTime: 0.07059165124554155
+TotalServer2 ServerTime: 324.9222562829197
+Average Server2 ServerTime: 0.07075833107206439
+
+Total idle time: 217.9462572215882
+Average idle time of Server1: 0.049722442481137163
+Average idle time of Server2: 0.012325794437513247
